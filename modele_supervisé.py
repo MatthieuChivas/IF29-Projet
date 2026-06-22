@@ -9,8 +9,8 @@ from sklearn.metrics import classification_report, confusion_matrix
 # --- 1. CONNEXION ET EXTRACTION MONGO (VISION TOTALE DES VARIABLES) ---
 # =====================================================================
 client = MongoClient("mongodb://localhost:27017/")
-db = client["test"]
-collection = db["tweets"]
+db = client["projet"]
+collection = db["MesElements"]
 print("Connexion OK à MongoDB")
 
 collection.create_index("user.id")
