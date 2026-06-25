@@ -1,6 +1,5 @@
 # Ignore large datasets and model files
 *.csv
-*.parquet
 *.joblib
 non-sup/cache_features/
 
