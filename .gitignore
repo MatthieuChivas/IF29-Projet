@@ -2,7 +2,6 @@
 *.csv
 *.parquet
 *.joblib
-cache_features/
 non-sup/cache_features/
 
 # System files
