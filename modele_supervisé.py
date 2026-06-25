@@ -90,7 +90,7 @@ def calculer_tweets_par_jour_dataset(row):
         # Calcul de la durée en jours (total_seconds / 86400)
         duration_days = (date_max - date_min).total_seconds() / 86400
         
-        # Si l'utilisateur a tout posté dans la même seconde, on applique un minimum de 1 jour (comme ton ami)
+        # Si l'utilisateur a tout posté dans la même seconde, on applique un minimum de 1 jour 
         if duration_days <= 0:
             duration_days = 1.0
             
